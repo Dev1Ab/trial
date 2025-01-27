@@ -1,0 +1,254 @@
+body{
+    font-family: "poppins", sans-serif;
+}
+
+/*Reboot*/
+.bg-blue{
+    background-color: #181d50;
+}
+.blue-text{
+    color: #181d50 !important;
+}
+
+.border-blue{
+    border-color: #181d50 !important;
+}
+
+.form-control:focus{
+    color: #181d50 !important;
+    border-color: #181d50 !important;
+    box-shadow: 0 0 0 0.25rem rgba(24, 29, 80, 0.9) !important;
+}
+.form-control::placeholder{
+    color: #181d50
+}
+
+/* Navbar style*/
+.nav-link{
+    position: relative;
+    color: #181d50 !important;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background: #181d50;
+    transition: width 0.3s ease;
+}
+
+.nav-link:hover{
+    font-weight: bold;
+    color: #181d50;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
+
+.active{
+    color: #181d50 !important;
+    font-weight: bold;
+}
+
+.btn-outline-success{
+    color: #181d50;
+    border-color: #181d50;
+    border-width: 2px;
+    font-weight: 500;
+}
+
+.btn-outline-success:hover{
+    background-color: #181d50;
+    border-color: #181d50;
+}
+
+.btn-outline-success:active{
+    background-color: #181d50 !important;
+    border-color: #181d50 !important;
+}
+
+.navbar-toggler{
+    
+    color: #181d50;
+    border-color: #181d50;
+    border-width: 2px;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%23181d50' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/* Offcanvas style */
+.btn-close{
+    filter: brightness(0) saturate(100%) invert(15%) sepia(8%) saturate(6482%) hue-rotate(204deg) brightness(91%) contrast(105%);
+    opacity: 1;
+}
+
+.offcanvas-title{
+    color: #181d50;
+    font-weight: 600;
+}
+
+/* Hero style */
+
+
+.btn-primary{
+    background-color: #181d50;
+    border-color: #181d50;
+}
+
+.btn-primary:hover{
+    color: #181d50;
+    border-color: #181d50;
+    border-width: 2px;
+    font-weight: 500;
+    background-color: #fff;
+}
+
+.btn-primary:active{
+    background-color: #fff !important;
+}
+
+.triangle-par {
+    height: 90vh;
+    position: relative;
+}
+
+.triangle {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40vh;
+    background-color: #181d50;
+    /* clip-path: polygon(0 75% ,90% 0, 100% 100%, 0 100%); */
+    /* clip-path: polygon(50% 0, 100% 100%, 0 100%); */
+    clip-path: polygon(90% 0, 100% 100%, 0 100%);
+}
+
+
+
+/* About style*/
+
+/* ul{
+    list-style-type: none;
+    text-align: center;
+} */
+
+.img-center{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle{
+    background-color: #1746a2;
+    border-radius: 100%;
+    height: 70px;
+    width: 70px;
+}
+
+.html-bar{
+    background-color: #e34e26;
+}
+.css-bar{
+    background-color: #0f74b8;
+}
+.js-bar{
+    background-color: #dab92c;
+}
+.boots-bar{
+    background-color: #7411f7;
+}
+.php-bar{
+    background-color: #767bb3;
+}
+.react-bar{
+    background-color: #4ac8ee;
+}
+.laravel-bar{
+    background-color: #ca3d2b;
+}
+
+.two-color{
+    background: linear-gradient(to bottom, white 50%, #181d50 50%);
+}
+
+/* Projects Style */
+
+.card-img {
+    transition: transform 0.3s ease, filter 0.3s ease;
+    filter: brightness(80%);
+  }
+
+.card:hover .card-img {
+    transform: scale(1.05);
+    filter: brightness(40%);
+}
+  
+.card-img-overlay {
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    text-align: center;
+    opacity: 0;
+    transition: all 0.4s ease;
+}
+
+.card:hover .card-img-overlay {
+    transform: translate(-50%, -90%);
+    opacity: 1;
+}
+
+/* footer style */
+
+.btn-secondary:hover{
+    background-color: #1746a2;
+}
+
+.link-body-emphasis:hover{
+    color: #0f74b8 !important;
+}
+
+/* mentorship style */
+
+.card-nobg{
+    background:none;
+}
+
+.form-control-white:focus{
+    box-shadow: 0 0 0 0.25rem rgb(23, 70, 162) !important;
+}
+
+/* Blog style */
+.icon-link{
+    text-decoration-color: #181d50;
+    -moz-text-decoration-color: #181d50;
+}
+
+
+@media (max-width: 767px) {
+    .triangle-par{
+        height: max-content;
+    }
+    .triangle {
+        display: none;
+    }
+    .about{
+        display: flex;
+        justify-content: center;
+    }
+    .about-img{
+        width: 30%;
+    }
+    
+    
+    /* projects style */
+
+    
+
+}
