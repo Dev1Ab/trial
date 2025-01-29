@@ -230,7 +230,15 @@ body{
     -moz-text-decoration-color: #181d50;
 }
 
+/* Text animations hero section */
 
+#typed-output{
+    display: inline;
+}
+.typed-cursor{
+    display: inline;
+}
+  
 @media (max-width: 767px) {
     .triangle-par{
         height: max-content;
